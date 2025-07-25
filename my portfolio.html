@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مرحبًا بك في موقعي الشخصي!</title>
+    <link rel="stylesheet" href="my portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- رأس الموقع -->
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="logo.png" alt="Logo" class="logo" id="admin-logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#about">عنّي</a></li>
+                    <li><a href="#skills">المهارات</a></li>
+                    <li><a href="#contact">تواصل معي</a></li>
+                    <li><a href="#comments">التعليقات</a></li>
+                </ul>
+            </nav>
+            <div class="language-selector">
+                <i class="fas fa-globe" id="language-icon"></i>
+                <div class="language-dropdown" id="language-dropdown">
+                    <div class="language-option" data-lang="ar">العربية</div>
+                    <div class="language-option" data-lang="en">English</div>
+                    <div class="language-option" data-lang="fr">Français</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- القسم الرئيسي -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="main-title">مرحبًا بك في موقعي الشخصي!</h1>
+                <h2 class="job-title">Amer Developer</h2>
+                <p class="welcome-message">أهلًا بك في عالمي الرقمي!</p>
+                <p class="welcome-submessage">مرحبًا بك في المساحة التي أشاركك فيها إبداعي التقني.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم عنّي -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>من أنا</h2>
+            <div class="about-content">
+                <p>مطوّر برمجيات أقدّم حلولًا رقمية متكاملة، مع التركيز على الأداء، الأمان، والتصميم العصري.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">مشاريع</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">شهادات</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number"><1</span>
+                        <span class="stat-label">سنوات خبرة</span>
+                    </div>
+                </div>
+                <div class="about-details">
+                    <p>أهلًا بك!<br>
+                    أنا عامر، مطوّر برمجيات ومصمّم واجهات مستخدم، أعمل بشغف على بناء مواقع وتطبيقات سريعة، آمنة، وعصرية.<br>
+                    أُتقن HTML، CSS، JavaScript، وPython، وأسعى دائمًا لتقديم حلول تقنية فعالة وسهلة الاستخدام.<br>
+                    أؤمن أن كل مشروع يستحق أن يُبنى بجودة عالية وتفاصيل دقيقة، لذلك أركز على الأداء، التصميم، وتجربة المستخدم.<br>
+                    حاليًا أعمل على تطوير معرض أعمالي ومساعدة العملاء في تنفيذ أفكارهم وتحويلها إلى واقع رقمي فعّال.<br>
+                    يسعدني أن أكون شريكك القادم في النجاح.</p>
+                    <p class="signature">| Amer Developer 🚀</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المهارات -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>المهارات</h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-fullname="Python Programming Language" data-description="لغة برمجة عالية المستوى وسهلة القراءة، تُستخدم في تطوير البرمجيات، وأتمتة المهام، وتحليل البيانات، والذكاء الاصطناعي. تُعد من أكثر اللغات شيوعًا بفضل بساطتها وتنوع مكتباتها. أستخدمها لبناء أدوات ومشروعات ذكية وعملية.">
+                    <h3>Python</h3>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 70%"></div>
+                    </div>
+                    <span class="skill-status">متوسط</span>
+                </div>
+
+                <div class="skill-card" data-fullname="HyperText Markup Language" data-description="اللغة الأساسية لبناء هيكل صفحات الويب. تُستخدم لتقسيم وتنظيم المحتوى على الموقع مثل النصوص، الصور، والعناوين. هي الخطوة الأولى في أي مشروع ويب.">
+                    <h3>HTML</h3>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 85%"></div>
+                    </div>
+                    <span class="skill-status">متقدم</span>
+                </div>
+
+                <div class="skill-card" data-fullname="Cascading Style Sheets" data-description="تُستخدم لتنسيق وتجميل صفحات الويب من خلال التحكم في الألوان، الخطوط، الأحجام، والتوزيع. تفصل بين محتوى الصفحة وشكلها. تمنح المواقع مظهرًا عصريًا وجذابًا.">
+                    <h3>CSS</h3>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 80%"></div>
+                    </div>
+                    <span class="skill-status">متقدم</span>
+                </div>
+
+                <div class="skill-card" data-fullname="JavaScript" data-description="لغة برمجة تجعل المواقع تفاعلية وديناميكية. تُستخدم في إنشاء الحركات، التفاعلات، وأي شيء يتغير بدون إعادة تحميل الصفحة. أساسية في تطوير الواجهات الحديثة.">
+                    <h3>JavaScript</h3>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 65%"></div>
+                    </div>
+                    <span class="skill-status">متوسط</span>
+                </div>
+
+                <div class="skill-card" data-fullname="Artificial Intelligence Tools" data-description="أستخدم أدوات مثل ChatGPT وCopilot لتسريع البرمجة، توليد الأفكار، وتصحيح الأكواد. يمكنني من تنفيذ مشروعات باحترافية حتى في اللغات والأدوات التي لم أتعلمها بالكامل بعد. تجعلني أكثر إنتاجًا وفعالية كمطوّر.">
+                    <h3>أدوات الذكاء الاصطناعي</h3>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 75%"></div>
+                    </div>
+                    <span class="skill-status">متوسط</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم التواصل -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>تواصل معي</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" placeholder="الاسم" required>
+                        <input type="email" placeholder="البريد الإلكتروني" required>
+                        <textarea placeholder="الرسالة" required></textarea>
+                        <button type="submit">إرسال</button>
+                    </form>
+                    <div class="success-message" id="successMessage">
+                        تم الإرسال بنجاح! سيتم التواصل معك قريبًا.
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>iamamer030@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>01032637977</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/amer-developer1" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/amer_aeveloper?igsh=Z3pkOThsbzcydjF5" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/12KqdRU6f2e/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://tiktok.com/@amer.developer8" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم التعليقات -->
+    <section id="comments" class="comments">
+        <div class="container">
+            <h2>التعليقات</h2>
+            <div class="comments-section">
+                <p>قسم التعليقات قيد التطوير...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- تذييل الموقع -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Amer Developer. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <!-- نافذة تسجيل الدخول للإدارة -->
+    <div class="admin-login-modal" id="adminModal">
+        <div class="admin-login-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <h3>تسجيل الدخول للإدارة</h3>
+            <input type="password" id="adminPassword" placeholder="أدخل كلمة المرور">
+            <button id="adminLoginBtn">دخول</button>
+        </div>
+    </div>
+
+    <script src="my portfolio.js"></script>
+</body>
+</html>
