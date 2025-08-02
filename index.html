@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Amer Developer | Full-Stack Web Developer & AI-Powered Solution Builder" />
+  <meta name="keywords" content="web developer, portfolio, HTML, CSS, JavaScript, Python, AI tools, Tailwind, Egypt" />
+  <meta name="author" content="Amer Developer" />
+  <meta name="theme-color" content="#000033" />
+  <meta name="robots" content="index, follow" />
+
+  <title>Amer Developer | Building Digital Futures with Code & Creativity</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+
+  <!-- Preload Key Assets -->
+  <link rel="preload" as="image" href="assets/images/logo.png" />
+  <link rel="preload" as="image" href="assets/images/project1.jpg" />
+  <link rel="preload" as="font" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" type="text/css" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Inline Critical CSS -->
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Lato', sans-serif;
+      background: #000033;
+      color: #FFFFFF;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    body { opacity: 0; animation: fadeIn 0.5s ease forwards; }
+  </style>
+</head>
+<body>
+
+  <!-- Skip to Content -->
+  <a href="#main-content" class="skip-link">Skip to content</a>
+
+  <!-- Header & Navigation -->
+  <header class="main-header" role="banner">
+    <div class="logo" aria-label="Amer Developer Logo">
+      <img src="assets/images/logo.png" alt="Amer Developer" id="logo-img" loading="eager" width="60" height="60" />
+    </div>
+
+    <nav class="main-nav" aria-label="Main Navigation">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#tools" class="nav-link">Tools</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- لن تظهر الأيقونات هنا بعد الآن -->
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-content-wrapper">
+        <div class="hero-text">
+          <h1 class="hero-title" data-animation="slide-up">
+            <span class="highlight">Hello</span>, I'm <strong>Amer</strong>
+          </h1>
+          <h2 class="hero-subtitle" data-animation="slide-up" style="animation-delay: 0.2s;">
+            <span class="typing-text" id="typing-text"></span>
+          </h2>
+          <p class="hero-paragraph" data-animation="fade-in" style="animation-delay: 0.4s;">
+            I build digital solutions that help you appear professionally and effectively in the digital market.
+          </p>
+          <a href="#about" class="btn btn-primary" data-animation="slide-up" style="animation-delay: 0.6s;">
+            More About Me <i class="fas fa-arrow-right"></i>
+          </a>
+
+          <!-- Social Icons Below Button (Only 3) -->
+          <div class="social-icons-home" data-animation="fade-in" style="animation-delay: 0.8s;">
+            <a href="https://github.com/Amer-Developer1" target="_blank" rel="noopener" aria-label="GitHub">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="https://www.instagram.com/amer.developer" target="_blank" rel="noopener" aria-label="Instagram">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="https://wa.me/2001032637977" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <i class="fab fa-whatsapp fa-2x"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-avatar" data-animation="zoom-in" style="animation-delay: 0.8s;">
+          <img src="assets/images/logo.png" alt="Amer Developer Portrait" class="avatar-img" loading="eager" width="320" height="320" />
+          <div class="glow-ring"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section" data-section="about">
+      <div class="container">
+        <h2 class="section-title" data-animation="slide-up">About Me</h2>
+        <div class="about-content" data-animation="fade-in">
+          <p id="about-text">
+            I am Amer, a software developer from Egypt 🇪🇬, dedicated to crafting modern, efficient, and user-centered digital experiences. I specialize in front-end development using HTML, CSS, and JavaScript, with strong backend knowledge in Python. I believe in writing clean, maintainable, and scalable code.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section" data-section="skills">
+      <div class="container">
+        <h2 class="section-title" data-animation="slide-up">My Skills</h2>
+        <div class="skills-grid" id="skills-grid">
+          <!-- Filled via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="section tools-section" data-section="tools">
+      <div class="container">
+        <h2 class="section-title" data-animation="slide-up">My Tools</h2>
+        <div class="tools-grid" id="tools-grid">
+          <!-- Filled via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section" data-section="projects">
+      <div class="container">
+        <h2 class="section-title" data-animation="slide-up">Latest Projects</h2>
+        <div class="projects-grid" id="projects-grid">
+          <!-- Filled via JS -->
+        </div>
+        <div class="projects-empty" id="projects-empty" style="display: none; text-align: center; color: #CCCCCC;">
+          <p>No projects added yet.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section" data-section="contact">
+      <div class="container">
+        <h2 class="section-title" data-animation="slide-up">Contact Me</h2>
+        <div class="contact-form-wrapper">
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required autocomplete="name" />
+              <div class="error-message" id="name-error"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" required autocomplete="email" />
+              <div class="error-message" id="email-error"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <div class="error-message" id="message-error"></div>
+            </div>
+
+            <button type="submit" class="btn btn-submit">
+              <span id="submit-text">Send Message</span>
+              <span id="loading" style="display: none;">
+                <i class="fas fa-spinner fa-spin"></i> Sending...
+              </span>
+            </button>
+          </form>
+
+          <div class="motivational-message">
+            <blockquote>
+              "I am available for collaboration and new projects. Feel free to reach out for any inquiries or job offers."
+            </blockquote>
+          </div>
+
+          <!-- All Social Links in Contact Section -->
+          <div class="social-links-contact">
+            <a href="https://github.com/Amer-Developer1" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.facebook.com/amer.developer" target="_blank" rel="noopener">
+              <i class="fab fa-facebook"></i> Facebook
+            </a>
+            <a href="https://tiktok.com/@amer.developer8" target="_blank" rel="noopener" onclick="showTikTokNotice(); return false;">
+              <i class="fab fa-tiktok"></i> TikTok
+            </a>
+            <a href="https://www.instagram.com/amer.developer" target="_blank" rel="noopener">
+              <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://twitter.com/amer_developer" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i> Twitter
+            </a>
+            <a href="https://wa.me/2001032637977" target="_blank" rel="noopener">
+              <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; <span id="year">2025</span> Amer Developer. All rights reserved.</p>
+        <p>Email: <a href="mailto:iamamer030@gmail.com">iamamer030@gmail.com</a></p>
+        <p>Phone (WhatsApp only): <a href="https://wa.me/2001032637977">+20 010 3263 7977</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Language Switcher -->
+  <div class="language-switcher" id="language-switcher" role="button" aria-label="Change Language">
+    <i class="fas fa-globe"></i>
+    <ul class="language-menu" id="language-menu" hidden>
+      <li data-lang="ar">العربية</li>
+      <li data-lang="en" class="active">English</li>
+      <li data-lang="fr">Français</li>
+    </ul>
+  </div>
+
+  <!-- Custom Password Modal (Replaces Prompt) -->
+  <div class="modal" id="password-modal" hidden>
+    <div class="modal-content">
+      <h4>Enter Admin Password</h4>
+      <p>This area is protected. Enter the password to continue.</p>
+      <input type="password" id="admin-password" placeholder="Enter password" />
+      <div class="error-message" id="password-error" style="color: #FF5555; margin: 10px 0; display: none;"></div>
+      <div class="modal-buttons">
+        <button class="btn" onclick="checkPassword()">Enter</button>
+        <button class="btn btn-secondary" onclick="closePasswordModal()">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Admin Panel -->
+  <div class="admin-panel" id="admin-panel" hidden>
+    <div class="admin-header">
+      <h3>Admin Panel</h3>
+      <button class="btn-close" onclick="toggleAdminPanel()">&times;</button>
+    </div>
+
+    <div class="admin-tabs">
+      <button class="tab-btn active" data-tab="add-project">Add Project</button>
+      <button class="tab-btn" data-tab="add-skill">Add Skill</button>
+      <button class="tab-btn" data-tab="add-tool">Add Tool</button>
+    </div>
+
+    <div class="admin-tab-content">
+      <div class="tab-pane active" id="add-project">
+        <form id="form-project">
+          <input type="text" placeholder="Project Name" id="input-project-name" required />
+          <input type="url" placeholder="Project URL" id="input-project-link" required />
+          <input type="url" placeholder="Image URL" id="input-project-image" required />
+          <input type="url" placeholder="Video URL (optional)" id="input-project-video" />
+          <textarea placeholder="Short Description" id="input-project-desc" required></textarea>
+          <button type="submit" class="btn">Save Project</button>
+        </form>
+      </div>
+
+      <div class="tab-pane" id="add-skill">
+        <form id="form-skill">
+          <input type="text" placeholder="Skill Abbreviation (e.g. HTML)" id="input-skill-short" required />
+          <input type="text" placeholder="Full Name (e.g. HyperText Markup Language)" id="input-skill-full" required />
+          <textarea placeholder="Short Description" id="input-skill-desc" required></textarea>
+          <button type="submit" class="btn">Add Skill</button>
+        </form>
+      </div>
+
+      <div class="tab-pane" id="add-tool">
+        <form id="form-tool">
+          <input type="text" placeholder="Tool Abbreviation (e.g. Git)" id="input-tool-short" required />
+          <input type="text" placeholder="Full Name (e.g. Version Control System)" id="input-tool-full" required />
+          <textarea placeholder="Short Description" id="input-tool-desc" required></textarea>
+          <button type="submit" class="btn">Add Tool</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- TikTok Notice Modal -->
+  <div class="modal" id="tiktok-modal" hidden>
+    <div class="modal-content">
+      <h4>TikTok Service Notice</h4>
+      <p>
+        Due to regional restrictions, TikTok is no longer available in certain areas including Hong Kong.
+        <br><br>
+        I remain active on other platforms. Please connect with me via GitHub, WhatsApp, or email.
+      </p>
+      <button class="btn" onclick="closeTikTokModal()">Got It</button>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">Action completed successfully!</div>
+
+  <!-- External JS -->
+  <script src="script.js" defer></script>
+
+</body>
+</html>
